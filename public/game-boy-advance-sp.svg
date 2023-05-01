@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 579">
+  <path id="R" d="m499,71V2h49.64c14.01,0,25.36,11.36,25.36,25.36v43.64h-75Z" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <path id="L" d="m77,71V2H27.36C13.36,2,2,13.36,2,27.36v43.64h75Z" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <path id="BODY" d="m28.91,12h518.18c9.33,0,16.91,7.58,16.91,16.91v509.95c0,21.05-17.09,38.14-38.14,38.14H50.14c-21.05,0-38.14-17.09-38.14-38.14V28.91c0-9.33,7.58-16.91,16.91-16.91Z" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <circle id="B" cx="382" cy="274" r="29" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <circle id="A" cx="466" cy="245" r="29" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <circle id="SELECT" cx="239" cy="512" r="15" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <circle id="START" cx="335" cy="512" r="15" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <path id="UP-ADDITIONAL_0" d="m169,291c0-6,7.5-6,7.5-6h25.03s4.67-.09,5.97-4c1-3,2-11,2-16s-1-13-2-16c-1.3-3.91-5.97-4-5.97-4h-25.03s-7.5,0-7.5-6v-27.03s-.09-4.67-4-5.97c-3-1-11-2-16-2s-13,1-16,2c-3.91,1.3-4,5.97-4,5.97v27.03c0,6-7.5,6-7.5,6h-25.03s-4.67.09-5.97,4c-1,3-2,11-2,16s1,13,2,16c1.3,3.91,5.97,4,5.97,4h25.03s7.5,0,7.5,6v26.03s.09,4.67,4,5.97c3,1,11,2,16,2s13-1,16-2c3.91-1.3,4-5.97,4-5.97v-26.03Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+  <g id="BODY-ADDITIONAL_0">
+    <circle cx="273" cy="372" r="4" fill="#000"/>
+    <circle cx="300" cy="372" r="4" fill="#000"/>
+    <circle cx="300" cy="399" r="4" fill="#000"/>
+    <circle cx="273" cy="399" r="4" fill="#000"/>
+    <circle cx="273" cy="344" r="3" fill="#000"/>
+    <circle cx="300" cy="344" r="3" fill="#000"/>
+    <circle cx="273" cy="427" r="3" fill="#000"/>
+    <circle cx="300" cy="427" r="3" fill="#000"/>
+    <circle cx="246" cy="399" r="3" fill="#000"/>
+    <circle cx="246" cy="372" r="3" fill="#000"/>
+    <circle cx="328" cy="399" r="3" fill="#000"/>
+    <circle cx="328" cy="372" r="3" fill="#000"/>
+    <circle cx="246" cy="344" r="3" fill="#000"/>
+    <circle cx="328" cy="427" r="3" fill="#000"/>
+    <circle cx="328" cy="344" r="3" fill="#000"/>
+    <circle cx="246" cy="427" r="3" fill="#000"/>
+  </g>
+  <path id="UP" d="m169,239v-27.03s-.09-4.67-4-5.97c-3-1-11-2-16-2s-13,1-16,2c-3.91,1.3-4,5.97-4,5.97v27.03" fill="#f0f"/>
+  <path id="RIGHT" d="m175.5,285h26.03s4.67-.09,5.97-4c1-3,2-11,2-16s-1-13-2-16c-1.3-3.91-5.97-4-5.97-4h-26.03" fill="#f0f"/>
+  <path id="DOWN" d="m129,290v27.03s.09,4.67,4,5.97c3,1,11,2,16,2s13-1,16-2c3.91-1.3,4-5.97,4-5.97v-27.03" fill="#f0f"/>
+  <path id="LEFT" d="m122.5,245h-26.03s-4.67.09-5.97,4c-1,3-2,11-2,16s1,13,2,16c1.3,3.91,5.97,4,5.97,4h26.03" fill="#f0f"/>
+</svg>

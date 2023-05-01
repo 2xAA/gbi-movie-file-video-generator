@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i&display=swap");
+
+::-moz-selection {
+  background-color: #ff00ff;
+  color: #000;
+}
+::selection,
+.highlight {
+  background-color: #ff00ff;
+  color: #000;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: #000;
+  color: #fff;
+  width: fit-content;
+  padding: 0 0.17em;
+}
+
+.text-background {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 0 0.17em;
+}
+
+.text-background a,
+.text-background a:active,
+.text-background a:visited {
+  color: #ff00ff;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  /* width: 100%; */
+  margin: 6.45px 0;
+  border-radius: 25px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12.1px;
+  box-shadow: #000 2px 2px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #000;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border: 2px solid #000000;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  -webkit-appearance: none;
+  margin-top: -8.45px;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background-color: #ffffff;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 12.1px;
+  box-shadow: #000 2px 2px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid #000000;
+}
+
+input[type="range"]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #670000, 0px 0px 0px #810000;
+  border: 2px solid #000000;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 12.1px;
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: #000 2px 2px;
+  border-radius: 50px;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50px;
+}
+
+input[type="range"]::-ms-thumb {
+  border: 2px solid #000000;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  height: 12.1px;
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+  border-color: #ff00ff;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+  border-color: #ff00ff;
+  box-shadow: #ff00ff 2px 2px;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  border-color: #ff00ff;
+  box-shadow: #ff00ff 2px 2px;
+}
+
+input[type="range"]:focus::-moz-range-track {
+  border-color: #ff00ff;
+  box-shadow: #ff00ff 2px 2px;
+}
+
+progress {
+  -webkit-appearance: none;
+  display: block;
+  height: 12.1px;
+  box-shadow: #000 2px 2px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+progress::-moz-progress-bar {
+  background-color: #fff;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ff00ff;
+}
+
+input[type="text"],
+textarea,
+select {
+  -webkit-appearance: none;
+}
+
+a.button {
+  color: #000;
+  text-decoration: none;
+}
+
+a[target="_blank"]::after {
+  content: "\2197";
+}
+
+a.button,
+input[type="text"],
+input[type="number"],
+input[type="button"],
+button,
+textarea,
+select {
+  background-color: #fff;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 0.4em 0.7em;
+  font-size: 0.9em;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+
+  box-shadow: #000 2px 2px;
+}
+
+a.button:disabled,
+input[type="text"]:disabled,
+input[type="number"]:disabled,
+input[type="button"]:disabled,
+button:disabled,
+textarea:disabled,
+select:disabled {
+  border: 2px solid rgb(170, 170, 170);
+  box-shadow: rgb(170, 170, 170) 2px 2px;
+  color: rgb(170, 170, 170);
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+a.button,
+input[type="button"],
+button {
+  text-transform: uppercase;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #ff00ff;
+  box-shadow: #ff00ff 2px 2px;
+  outline: none;
+}
+
+a.button:focus,
+input[type="button"]:focus,
+button:focus {
+  border-color: #ff00ff;
+  box-shadow: #ff00ff 2px 2px;
+  outline: none;
+}
+
+a.button:active,
+input[type="button"]:active,
+button:active,
+a.button:focus:active,
+input[type="button"]:focus:active,
+button:focus:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+input,
+input[type="range"],
+button,
+.checkbox,
+textarea,
+select {
+  margin-bottom: 1em;
+}
+
+label span {
+  margin: 0 1em;
+  background-color: #000;
+  color: #fff;
+  padding: 0 0.17em;
+}
+
+.checkbox label {
+  position: relative;
+}
+
+.checkbox input[type="checkbox"] {
+  opacity: 0 !important;
+  margin: 0;
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+  position: absolute;
+  content: "";
+}
+
+.checkbox label::before {
+  top: 0em;
+  left: 0em;
+  width: 1em;
+  height: 1em;
+
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50px;
+  box-shadow: #000000 2px 2px;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after {
+  height: 0.23em;
+  width: 0.5em;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #000;
+  transform: rotate(-45deg);
+  left: 0.3em;
+  top: 0.34em;
+}
+
+.checkbox input[type="checkbox"]:active + label::after {
+  transform: translate(2px, 2px) rotate(-45deg);
+}
+
+.checkbox input[type="checkbox"]:focus + label::before {
+  border-color: #ff00ff;
+  box-shadow: #ff00ff 2px 2px;
+}
+
+.checkbox input[type="checkbox"]:active + label::before,
+.checkbox input[type="checkbox"]:focus:active + label::before {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.checkbox label span {
+  margin-left: 2em;
+}
+
+label.select {
+  position: relative;
+  width: 100%;
+}
+
+label.select::before {
+  content: "⌾";
+  width: 0.6em;
+  top: -0.55em;
+  bottom: -0.5em;
+  right: 0;
+  position: absolute;
+  pointer-events: none;
+
+  background-color: #fff;
+  border: 2px solid;
+  border-left: none;
+
+  border-radius: 0 8px 8px 0;
+  padding: 0.4em 0.7em;
+  font-size: 0.9em;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+
+  box-shadow: #000 2px 2px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.code {
+  white-space: pre-wrap;
+  background-color: #ffd70059;
+  padding: 0.2em;
+  border-radius: 4px;
+}
